@@ -2,7 +2,6 @@ largest = None
 smallest = None
 
 while True:
-    
     val = input("Enter a number: ")
     
     if val == "done":
@@ -19,7 +18,6 @@ while True:
     except:
         
         print("Invalid input")
-        continue
-        
+        continue       
 print("Maximum is", largest)
 print("Minimum is", smallest)
